@@ -1,0 +1,166 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ *:focus {
+    outline: none;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#CONTENT{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  width: 94.44vw;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background: black;
+  padding: 2.22vw 2.78vw 1.67vw 2.78vw;
+}
+header > .content{
+  display: flex;
+  justify-content: space-between;
+}
+header > .content > .links{
+  display: flex;
+  align-items: center;
+}
+header > .content > .links > a{
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin-right: 2.22vw;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+header > .content > .links > .logo > a{
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin-right: 4.17vw;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+} u
+header > .content > .download{
+  display: inline-block;
+  margin-left: 100px;
+}
+header > .content > .download > form > button{
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin-left: 56.74vw;
+  width: auto;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 0.83vw 1.39vw;
+  background: #FF5029;
+  border-radius: 3.82vw;
+  border: none;
+  cursor: pointer;
+}
+
+body{
+  background: black;
+  margin: 0;
+}
+
+footer{
+  display: inline-block;
+  width: 94.44vw;
+  margin-top: 4.17vw;
+  padding-bottom: 5.56vw;
+}
+footer > .ln {
+  display: inline-block;
+  width: 94.44vw;
+  height: 1.5px;
+  background-image: url("ln.png");
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 2.78vw;
+}
+footer > .cnt {
+  width: 94vw;
+  display: flex;
+  justify-content: space-between;
+}
+footer > .cnt > .left {
+  display: flex;
+}
+footer > .cnt > .left > .l-1 > h3 {
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin: 0 0 1.39vw 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+footer > .cnt > .left > .l-1{
+  margin-right: 80px;
+}
+footer > .cnt > .left > .l-2 > h3 {
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin: 0 0 1.39vw 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+footer > .cnt > .left > .l-1 > p {
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin: 0 0 0.42vw 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+footer > .cnt > .left > .l-2 > p {
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin: 0 0 0.42vw 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+footer > .cnt > .right > p {
+  font-family: 'Forma DJR Cyrilic Variable';
+  margin: 0 0 0.42vw 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+footer > .cnt > .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

@@ -1,0 +1,60 @@
+
+
+<section class="CONENT">
+    <div class="words">
+        <div class="w-list">
+            <h2>Похожие слова</h2>
+            <div class="list">
+                <p class="hello">Привет</p>
+                <p class="active thanks">Благодарю</p>
+                <p>Вперёд</p>
+                <p>Временно</p>
+                <p>Каждый</p>
+            </div>
+        </div>
+        <div class="w-abt">
+            <div class="search">
+                <div class="s-all">
+                    <div class="icon"></div>
+                    <input type="text" placeholder="Введите слово"></inpun>
+                </div>
+                <%= link_to "Искать", talkblock_path %>
+            </div>
+            <h2> Благодарю </h2>
+            <p>Лучше всего его показывать во время благодарения человека. Жест довольно плавный. Показывать его нужно так, тренируйтесь!</p>
+            <div class="vid"></div>
+        </div>
+
+        <div class="w-abt-2 none">
+        <div class="search">
+            <div class="s-all">
+                <div class="icon"></div>
+                <input type="text" placeholder="Введите слово"></inpun>
+            </div>
+            <%= link_to "Искать", talkblock_path %>
+        </div>
+        <h2>Привет</h2>
+        <p>Лучше всего его показывать при встрече с друзьями и знакомыми. Жест довольно быстрый и простой. Показывать его нужно так, тренируйтесь!</p>
+        <div class="vid"></div>
+    </div>
+
+
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".hello").click(function(){
+            $(".thanks").toggleClass("active");
+            $(this).toggleClass("active");
+            $(".w-abt-2").toggleClass("none");
+            $(".w-abt").toggleClass("none");
+        });
+        $(".thanks").click(function(){
+            $(".hello").toggleClass("active");
+            $(this).toggleClass("active");
+            $(".w-abt-2").toggleClass("none");
+            $(".w-abt").toggleClass("none");
+        });
+    });
+</script>

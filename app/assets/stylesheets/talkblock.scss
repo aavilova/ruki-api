@@ -1,0 +1,116 @@
+.words{
+    width: 90vw;
+    display: flex;
+    margin-top: 184px;
+    margin-bottom: 200px;
+    .w-list{
+        width: 252px;
+        border-right: 2px dashed #FFFFFF;
+        h2{
+        width: 129px;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: 0 0 40px 0;
+        }
+        .list{
+            p{
+                margin: 0 0 20px 0;
+                font-family: 'Forma DJR Cyrilic Variable';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 1px;
+                color: #FFFFFF;
+                opacity: .5;
+            }
+            .active{
+                opacity: 1;
+              }
+        }
+    }
+    .w-abt, .w-abt-2{
+        margin-left: 158px;
+        .search{
+            display: flex;
+            width: 540px;
+            height: 60px;
+            border: 2px dashed #FFFFFF;
+            border-radius: 12px;
+            align-items: center;
+            justify-content: space-between;
+            .s-all{
+              display: flex;
+              align-items: center;
+              padding: 0 24px;
+            }
+            .icon{
+              width: 24px;
+              height: 24px;
+              background: {
+                image: asset_url("s-icon.svg")
+              }
+              background-position: center;
+              background-size: 100%;
+              opacity: .5;
+            }
+            input[type='text']{
+              padding: 18px 10px;
+              background: none;
+              outline: none;
+              border: none;
+              font-size: 18px;
+              line-height: 22px;
+              color: white;
+            }
+            a{
+              color: white;
+              text-decoration: none;
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 24px;
+              padding: 0 24px;
+            }
+        }
+        h2{
+        margin: 80px 0 8px 0;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        }
+        p{
+        margin: 0 0 40px 0;
+        width: 540px;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        }
+        .vid{
+            width: 540px;
+            height: 310px;
+            background: {
+                image: asset_url("vid.png")
+              }
+            background-position: bottom;
+            background-size: 100.5%;
+        }
+    }
+    .none{
+        display: none;
+    }
+}

@@ -1,0 +1,347 @@
+#r-1{
+    margin-top: 10.35vw;
+    height: 38.54vw;
+    width: 94.44vw;
+    background: {
+      image: asset_url("bg.png")
+    }
+    background-position: bottom;
+    background-size: 115%;
+    p{
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      margin: 0 0 20px 0;
+      span{
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+      }
+    }
+    h1{
+      margin: 0 0 60px 0;
+      width: 1015px;
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 120px;
+      line-height: 90%;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    a{
+      width: 203px;
+      height: 60px;
+      background: #FF5029;
+      border-radius: 55px;
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 18px 32px;
+    }
+  }
+  #r-3{
+    padding-top: 60px;
+    width: 94.44vw;
+    border-top: #FFFFFF dashed 2px;
+    p{
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    .container {
+      width: 100vw;
+      margin-left: -40px;
+      padding-left: 40px;
+      margin-bottom: 80px;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      .card {
+        h3{
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 90%;
+        }
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 auto;
+        width: 325px;
+        height: 325px;
+        margin-right: 20px;
+        border-radius: 32px;
+        display: inline-block;
+      }
+      #c-1{
+        border: 2px dashed #000;
+        background: #B287FD;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 150px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #FFFFFF;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-2{
+        border: 2px dashed #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 150px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #FFFFFF;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-3{
+        border: 2px dashed #000;
+        background: #C4F041;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 115px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-4{
+        border: 2px dashed #000;
+        background: #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 150px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-5{
+        border: 2px dashed #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 185px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #fff;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #fff;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-6{
+        border: 2px dashed #000;
+        background: #B287FD;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 150px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #fff;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #fff;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  #r-2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 94.44vw;
+    .title{
+      padding: 0 80px;
+      width: 800px;
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    width: 94.44vw;
+    p{
+      margin: 0 0 40px 0;
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 1px;
+      color: white;
+    }
+    .titles{
+      display: flex;
+      .left{
+        background: {
+          image: asset_url("l-r.png")
+        }
+        background-position: center;
+        background-size: 100%;
+        width: 670px;
+        height: 288px;
+        margin-right: 20px;
+        h3{
+          margin: 32px 0 160px 40px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 100%;
+          color: #FFFFFF;
+        }
+        p{
+          margin-left: 40px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+      }
+      .right{
+        background: {
+          image: asset_url("r-r.png")
+        }
+        background-position: center;
+        background-size: 100%;
+        width: 670px;
+        height: 288px;
+        h3{
+          margin: 32px 0 160px 40px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 100%;
+          color: #FFFFFF;
+        }
+        p{
+          margin-left: 40px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  

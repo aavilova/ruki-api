@@ -1,0 +1,93 @@
+<section id="m-1">
+  <div class="main">
+    <div class="right">
+      <h1>Ruki</h1>
+      <h4>Приложение для изучения РЖЯ</h4>
+      <%= link_to "Скачать" %>
+      <div class="hand"></div>
+    </div>
+    <div class="left">
+      <div class="l-1">
+        <div class="txt">
+          <h2>Бесплатный курс по основам РЖЯ</h2>.
+          <p>10.06 — 10.07 <br>По вторникам и четвергам <br>в 19:00</p>
+        </div>
+        <%= link_to "Зарегистрироваться" %>
+      </div>
+      <div class="l-2">
+        <div class="l-2-r">
+          <h3>С чего начать изучение жестового языка?</h3>
+          <p>Время чтения: <br><span>5 мин.</span></p>
+        </div>
+        <div class="l-2-l">
+          <h3>Топ 5 фраз для начинащих</h3>
+          <p>Время чтения: <br><span>5 мин.</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="m-2">
+  <div class="right">
+    <span>Слово дня</span>
+    <h2>Благодарю</h2>
+    <p>Лучше всего его показывать во время благодарения человека. Жест довольно плавный. Показывать его нужно так, тренируйтесь!</p>
+    <%= link_to "Перейти к изучению", main_path %>
+  </div>
+  <div class="left"></div>
+</section>
+<section id="m-3">
+  <div class="finger"></div>
+  <h1>Учите слова и фразы быстро и удобно!</h1>
+  <p>Начните уже сейчас</p>
+  <div class="container">
+    <div id="c-1" class="card">
+      <h3>Как дела?</h3>
+      <p>Время изучения <br><span>3 мин.</span></p>
+    </div>
+    <div id="c-2" class="card">
+      <h3>Привет</h3>
+      <p>Время изучения <br><span>2 мин.</span></p>
+    </div>
+    <div id="c-3" class="card">
+      <h3>Доброе утро</h3>
+      <p>Время изучения <br><span>5 мин.</span></p>
+    </div>
+    <div id="c-4" class="card">
+      <h3>Приятно- <br>го аппетита</h3>
+      <p>Время изучения <br><span>4 мин.</span></p>
+    </div>
+    <div id="c-5" class="card">
+      <h3>Спокой- <br>ной ночи</h3>
+      <p>Время изучения <br><span>2 мин.</span></p>
+    </div>
+    <div id="c-6" class="card">
+      <h3>Я тебя люблю</h3>
+      <p>Время изучения <br><span>5 мин.</span></p>
+    </div>
+    <div id="c-7" class="card">
+      <h3>Пока</h3>
+      <p>Время изучения <br><span>4 мин.</span></p>
+    </div>
+    <div id="c-8" class="card">
+      <h3>Спасибо</h3>
+      <p>Время изучения <br><span>2 мин.</span></p>
+    </div>
+  </div>
+</section>
+<section id="m-4">
+  <div class="bg"></div>
+  <div class="more">
+    <h2>Ещё больше жестов можно найти в словаре</h2>
+    <%= link_to "Перейти в словарь", lib_path %>
+  </div>
+</section>
+<section id="m-5">
+  <div class="subscribe">
+    <div class="form">
+      <h2>Подпишись на рассылку</h2>
+      <h4>Чтобы следить за обновлениями</h4>
+      <%= render "subscribers/form" %>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,700 @@
+
+
+#m-1{
+    border-bottom: 2px dashed #FFFFFF;
+    display: flex;
+    width: 94.44vw;
+    .main{
+      display: flex;
+      padding: 10vw 0 8.333vw 0;
+      .right{
+        margin-right: 92px;
+        h1{
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 340px;
+          line-height: 80%;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          margin: 60px 0 0 0;
+        }
+        h4{
+          width: 283px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 48px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          margin: 0 0 133px 0;
+        }
+        a{
+          width: 203px;
+          height: 60px;
+          background: #FF5029;
+          border-radius: 55px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          text-decoration: none;
+          padding: 18px 32px;
+        }
+        .hand{
+          position: absolute;
+          z-index: 0;
+          width: 410px;
+          height: 410px;
+          left: 280px;
+          top: 385px;
+          background: {
+            image: asset_url("hand.png")
+          }
+          background-position: bottom;
+          background-size: 100.5%;
+        }
+      }
+      .left{
+        .l-1{
+          display: flex;
+          align-items: flex-end;
+          width: 670px;
+          height: 300px;
+          background: {
+            image: asset_url("l1.png")
+          }
+          background-position: center;
+          background-size: 100%;
+          margin-bottom: 20px;
+          .txt{
+            margin: 32px -24px 32px 40px;
+            h2{
+              width: 351px;
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 40px;
+              line-height: 48px;
+              letter-spacing: 1px;
+              color: #FFFFFF;
+            }
+            p{
+              width: 232px;
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 19px;
+              letter-spacing: 1px;
+              color: #FFFFFF;
+            }
+          }
+          a{
+            width: 203px;
+            height: 30px;
+            background: #000000;
+            border-radius: 55px;
+            font-family: 'Forma DJR Cyrilic Variable';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 18px 32px;
+            margin-bottom: 32px;
+          }
+        }
+        .l-2{
+          display: flex;
+          .l-2-r{
+            width: 325px;
+            height: 325px;
+            background: #000000;
+            border: 2px dashed #FFFFFF;
+            border-radius: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 20px;
+            h3{
+              width: 273px;
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 32px;
+              line-height: 38px;
+              letter-spacing: 1px;
+              font-feature-settings: 'ordn' on;
+              color: #FFFFFF;
+              margin-left: 26px;
+              margin-top: 26px;
+            }
+            p{
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              letter-spacing: 1px;
+              color: #FFFFFF;
+              margin-left: 26px;
+              margin-bottom: 26px;
+              span{
+                font-weight: 500;
+              }
+            }
+          }
+          .l-2-l{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 325px;
+            height: 325px;
+            background: {
+              image: asset_url("l2.png")
+            }
+            background-position: center;
+            background-size: 100%;
+            margin-bottom: 20px;
+            h3{
+              width: 273px;
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 32px;
+              line-height: 38px;
+              letter-spacing: 1px;
+              font-feature-settings: 'ordn' on;
+              color: #000;
+              margin-left: 26px;
+              margin-top: 26px;
+            }
+            p{
+              font-family: 'Forma DJR Cyrilic Variable';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              letter-spacing: 1px;
+              color: #000;
+              margin-left: 26px;
+              margin-bottom: 26px;
+              span{
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #m-2{
+    border-bottom: 2px dashed #FFFFFF;
+    padding: 80px 0;
+    display: flex;
+    width: 94.44vw;
+    .right{
+      margin-right: 169px;
+      span{
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 91.5%;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: 0 0 32px 0;
+      }
+      h2{
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 120px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: 0 0 8px 0;
+      }
+      p{
+        width: 486px;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: 0 0 68px 0;
+      }
+      a{
+        width: 203px;
+        height: 60px;
+        background: #FF5029;
+        border-radius: 55px;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 18px 32px;
+      }
+    }
+    .left{
+      width: 670px;
+      height: 382px;
+      background: {
+        image: asset_url("vid.png")
+      }
+      background-position: bottom;
+      background-size: 100.5%;
+    }
+  }
+  #m-3{
+    border-bottom: 2px dashed #FFFFFF;
+    width: 94.44vw;
+    .finger{
+      position: absolute;
+      right: 0;
+      top: 1499px;
+      width: 559px;
+      height: 520px;
+      background: {
+        image: asset_url("fn.png")
+      }
+      background-position: center;
+      background-size: 100%;
+    }
+    h1{
+      margin-top: 80px;
+      width: 900px;
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 120px;
+      line-height: 100%;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    p{
+      font-family: 'Forma DJR Cyrilic Variable';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+    .container {
+      width: 100vw;
+      margin-left: -40px;
+      padding-left: 40px;
+      margin-bottom: 80px;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      .card {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 auto;
+        width: 325px;
+        height: 325px;
+        margin-right: 20px;
+        border-radius: 32px;
+        display: inline-block;
+      }
+      #c-1{
+        border: 2px dashed #000;
+        background: #B287FD;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 185px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #FFFFFF;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-2{
+        border: 2px dashed #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 185px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #FFFFFF;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-3{
+        border: 2px dashed #000;
+        background: #C4F041;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 130px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-4{
+        border: 2px dashed #000;
+        background: #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 75px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-5{
+        border: 2px dashed #FFFFFF;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 130px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #fff;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #fff;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-6{
+        border: 2px dashed #000;
+        background: #B287FD;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 130px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #fff;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #fff;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-7{
+        border: 2px dashed #000;
+        background: #C4F041;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 185px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+      #c-8{
+        border: 2px dashed #000;
+        background: #fff;
+        h3{
+          margin-top: 26px;
+          margin-left: 26px;
+          margin-bottom: 185px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 90%;
+          letter-spacing: 1px;
+          font-feature-settings: 'ordn' on;
+          color: #000;
+        }
+        p{
+          margin-bottom: 26px;
+          margin-left: 26px;
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          color: #000;
+          span{
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  #m-4{
+    .bg{
+      position: absolute;
+      left: 0;
+      top: 2710px;
+      z-index: -1;
+      background: {
+        image: asset_url("ln-bg.png")
+      }
+      background-position: bottom;
+      background-size: 100.5%;
+      width: 1067px;
+      height: 324px;
+    }
+    .more{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        width: 850px;
+        text-align: center;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+      }
+      a{
+        width: 203px;
+        background: #FF5029;
+        border-radius: 55px;
+        font-family: 'Forma DJR Cyrilic Variable';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 18px 32px;
+      }
+    }
+  }
+  #m-5{
+    margin-top: 80px;
+    display: flex;
+    width: 94.44vw;
+    border-top: 2px dashed #FFFFFF;
+    .subscribe{
+      margin: 80px 0;
+      width: 1360px;
+      height: 474px;
+      background: {
+        image: asset_url("s-bg.png")
+      }
+      background-position: center;
+      background-size: 100%;
+      .form{
+        margin: 60px;
+        h2{
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 60px;
+          line-height: 91.5%;
+          letter-spacing: 1px;
+          color: #000000;
+          margin: 0 0 12px 0;
+        }
+        h4{
+          font-family: 'Forma DJR Cyrilic Variable';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 38px;
+          letter-spacing: 1px;
+          color: #000000;
+          margin: 0 0 48px 0;
+        }
+        form{
+          .in-f{
+            display: flex;
+            margin-bottom: 52px;
+            .n-f, .e-f{
+              margin-right: 20px;
+              h5{
+                font-family: 'Forma DJR Cyrilic Variable';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 1px;
+                color: #000000;
+                margin: 0 0 8px 0;
+              }
+              input{
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px 24px;
+                gap: 60px;
+                width: 342px;
+                height: 57px;
+                background: #FFFFFF;
+                border: 2px dashed #000000;
+                border-radius: 12px;
+              }
+            }
+          }
+          input[type="submit"]{
+            width: 203px;
+            height: 60px;
+            background: #FF5029;
+            border-radius: 55px;
+            font-family: 'Forma DJR Cyrilic Variable';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 18px 32px;
+            border: none;
+          }
+        }
+      }
+    }
+  }

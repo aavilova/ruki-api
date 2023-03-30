@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruki</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+    <section id="CONTENT">
+       <header>
+         <div class="content">
+           <div class="links">
+             <div class="logo">
+               <%= link_to "RUKI", main_path %>
+             </div>
+             <%= link_to "Статьи", read_path %>
+             <%= link_to "Словарь", lib_path %>
+           </div>
+           <div class="download">
+             <%= button_to "Скачать" %>
+           </div>
+         </div>
+      </header>
+      <%= yield %>
+      <footer>
+        <div class="ln"></div>
+        <div class="cnt">
+          <div class="left">
+            <div class="l-1">
+              <h3>Контакты</h3>
+              <p>+7325730972</p>
+              <p>ruki.app@gmail.com</p>
+            </div>
+            <div class="l-2">
+              <h3>Соц. сети</h3>
+              <p>@ruki.app</p>
+            </div>
+          </div>
+          <div class="right">
+            <p>Политика конфиденциальности</p>
+            <p>Команда</p>
+            <p>Обратная связь</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
