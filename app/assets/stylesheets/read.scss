@@ -265,6 +265,7 @@
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 94.44vw;
     .title{
@@ -278,7 +279,6 @@
       letter-spacing: 1px;
       color: #FFFFFF;
     }
-    width: 94.44vw;
     p{
       margin: 0 0 40px 0;
       font-family: 'Forma DJR Cyrilic Variable';
